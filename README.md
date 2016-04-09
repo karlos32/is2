@@ -26,22 +26,22 @@ Se puede guardar en un archivo.txt y luego ejecutar:
 $ pip install -r < archivo.txt
 ```
 
-### Documentacion
+### Documentación
 
-Para crear la documentacion, luego de haber instalado las dependencias. Ve a /docs/ y ejecuta:
+Para crear la documentación, luego de haber instalado las dependencias. Ve a /docs/ y ejecuta:
 
 ```
 $ make html
 ```
 Los archivos generados van a /docs/build/
 
-### Configuracion
+### Configuración
 
-La configuracion esta dividida en 4 archivos, todos incluidos en settings/
+La configuración esta dividida en 4 archivos, todos incluidos en settings/
 
 - `base.py`: Contiene configuracion comun a los ambientes de desarrollo y produccion
 - `dev.py`: Contiene configuracion especifica del ambiente de desarrollo
-- `prod.py`: Contiene configuracion especifica del ambiente de produccion
+- `prod.py`: Contiene configuracion especifica del ambiente de producción
 - `secret_config.py`: Contiene configuracion sensible, datos privados y que no deberian ser publicados por lo cual no es compartida en el repositorio.
 
 Si bien el archivo `secret_config.py` no se encuentra en el repositorio, es fundamental para que la aplicacion corra. Un ejemplo de configuracion seria:
