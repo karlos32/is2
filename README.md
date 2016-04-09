@@ -20,11 +20,13 @@ snowballstemmer==1.2.1
 Sphinx==1.4
 ```
 
-Se puede guardar en un archivo.txt y luego ejecutar:
+Se puede guardar en un `archivo.txt ` y luego ejecutar por medio de la terminal:
 
 ```
 $ pip install -r < archivo.txt
 ```
+
+De esta manera, instalar todos los requerimientos necesarios
 
 ### Documentacion
 
